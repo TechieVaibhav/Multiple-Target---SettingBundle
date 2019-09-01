@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         let server_url = Environment().configuration(PlistKey.ServerURL)
         print(server_url)
         
